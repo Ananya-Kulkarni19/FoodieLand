@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ananya-Kulkarni19/FoodieLand.git/static/css/main.f4720ac6.css",
+    "main.js": "/Ananya-Kulkarni19/FoodieLand.git/static/js/main.bbbab07f.js",
+    "static/js/453.f63ec175.chunk.js": "/Ananya-Kulkarni19/FoodieLand.git/static/js/453.f63ec175.chunk.js",
+    "index.html": "/Ananya-Kulkarni19/FoodieLand.git/index.html",
+    "main.f4720ac6.css.map": "/Ananya-Kulkarni19/FoodieLand.git/static/css/main.f4720ac6.css.map",
+    "main.bbbab07f.js.map": "/Ananya-Kulkarni19/FoodieLand.git/static/js/main.bbbab07f.js.map",
+    "453.f63ec175.chunk.js.map": "/Ananya-Kulkarni19/FoodieLand.git/static/js/453.f63ec175.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4720ac6.css",
+    "static/js/main.bbbab07f.js"
+  ]
+}
