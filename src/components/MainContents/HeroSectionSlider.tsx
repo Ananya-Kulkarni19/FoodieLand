@@ -30,7 +30,9 @@ const HeroSectionSlider: React.FC = () => {
           imageSrc="/images/hero.png"
         />
       </SwiperSlide>
-      <SwiperSlide>
+
+
+      {/* <SwiperSlide>
         <HeroSection
           title="Savory Garlic Parmesan Wings"
           description="Juicy wings tossed in a creamy garlic parmesan sauce that will make your taste buds dance."
@@ -63,7 +65,9 @@ const HeroSectionSlider: React.FC = () => {
           authorName="John Smith"
           imageSrc="/images/recipes/salmon.png"
         />
-      </SwiperSlide>
+      </SwiperSlide> */}
+
+
     </Swiper>
   );
 };

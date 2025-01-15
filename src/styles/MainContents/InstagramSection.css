@@ -70,3 +70,17 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+.instagram-item {
+  width: 80%;  /* Control the size of the image container */
+  height: 300px;  /* Set a fixed height if needed */
+  margin: 0 auto;  /* Center the container */
+}
+
+.food-image {
+  width: 120%;  /* Fill the container */
+  height: 160%;  /* Maintain the size of the container */
+  object-fit: cover;  /* Ensure the image covers the container without distortion */
+  border-radius: 8px;
+}

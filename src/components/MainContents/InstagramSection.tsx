@@ -2,8 +2,15 @@ import React from "react";
 import { InstagramEmbed } from "react-social-media-embed";
 import "../../styles/MainContents/InstagramSection.css";
 import { FaInstagram } from "react-icons/fa";
+
 const InstagramSection: React.FC = () => {
   const postIds = ["Cp0ZX4GAuf_", "Cp0ZX4GAuf_", "Cp0ZX4GAuf_"];
+  const foodImages = [
+    "/images/instagram/food1.png",
+    "/images/instagram/food2.png",
+    "/images/instagram/food3.png",
+    "/images/instagram/food4.png",
+  ];
 
   return (
     <div className="instagram-container-wrapper">
@@ -15,16 +22,38 @@ const InstagramSection: React.FC = () => {
           minim
         </p>
         <div className="instagram-grid">
+          {/* Instagram Embeds */}
           {postIds.map((id, index) => (
             <div
-              key={index}
+              key={`post-${index}`}
               className="instagram-item"
               style={{ height: "400px" }}
             >
               <InstagramEmbed
-                url={`https://www.instagram.com/p/${id}/`}
+                url={`https://www.instagram.com/foodielandsg?igsh=MTh6eHp5b2w5NTJ1eQ==`}
                 width={328}
                 captioned
+              />
+            </div>
+          ))}
+
+          {/* Food Images */}
+          {foodImages.map((image, index) => (
+            <div
+              key={`image-${index}`}
+              className="instagram-item"
+              style={{ height: "400px" }}
+            >
+              <img
+                src={image}
+                alt={`Food ${index + 1}`}
+                className="food-image"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  borderRadius: "8px",
+                }}
               />
             </div>
           ))}

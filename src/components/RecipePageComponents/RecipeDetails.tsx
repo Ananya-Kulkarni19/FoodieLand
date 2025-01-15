@@ -15,32 +15,22 @@ const RecipeDetails: React.FC = () => {
       title: "Chicken Meatball with Creamy Chees...",
       author: "By Andreas Paula",
     },
-    {
-      image: "images/recipes/meatballs.png",
-      title: "The Creamiest Creamy Chicken an...",
-      author: "By Andreas Paula",
-    },
-    {
-      image: "images/recipes/salmon.png",
-      title: "The Best Easy One Pot Chicken and Rice",
-      author: "By Andreas Paula",
-    },
   ];
 
   return (
     <div className="RecipeDetails-recipe-details">
       <div className="RecipeDetails-ingredients">
         <h2>Ingredients</h2>
-        <h3>For main dish</h3>
+        <h3></h3>
         <ul>
           {[...Array(4)].map((_, index) => (
-            <li key={`main-${index}`}>Lorem ipsum dolor sit amet</li>
+            <li key={`main-${index}`}></li>
           ))}
         </ul>
-        <h3>For the sauce</h3>
+        <h3></h3>
         <ul>
           {[...Array(3)].map((_, index) => (
-            <li key={`sauce-${index}`}>Lorem ipsum dolor sit amet</li>
+            <li key={`sauce-${index}`}></li>
           ))}
         </ul>
 

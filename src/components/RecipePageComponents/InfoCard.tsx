@@ -7,33 +7,33 @@ const InfoCard: React.FC = () => {
     <section className="Info-Card-Wrapper">
       <div className="info-card">
         <div className="content">
-          <h1 className="title">Health Japanese Fried Rice</h1>
+          <h1 className="title"></h1>
           <div className="info">
             <div className="info-section">
               <img className="icon" src="images/avatar.png" alt="author" />
               <div className="name-date">
-                <span className="name">John Smith</span>
-                <span className="date">15 March, 2022</span>
+                <span className="name"></span>
+                <span className="date"></span>
               </div>
             </div>
             <div className="info-tile">
               <FaClock />
               <div className="info-tile-column">
-                <span className="info-tile-title">PREP TIME</span>
-                <span className="info-tile-subtitle">15 Minutes</span>
+                <span className="info-tile-title"></span>
+                <span className="info-tile-subtitle"></span>
               </div>
             </div>
             <div className="info-tile">
               <FaClock />
               <div className="info-tile-column">
-                <span className="info-tile-title">COOK TIME</span>
+                <span className="info-tile-title"></span>
                 <span className="info-tile-subtitle">15 Minutes</span>
               </div>
             </div>
             <div className="info-tile">
               <ImSpoonKnife />
               <div className="info-tile-column">
-                <span className="info-tile-title">CHICKEN</span>
+                <span className="info-tile-title"></span>
               </div>
             </div>
           </div>
